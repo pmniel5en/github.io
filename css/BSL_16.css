@@ -66,13 +66,12 @@ nav {
 
 #kfum_logo {
     display: block;
-    margin-left: 16%;
+    margin-left: 25%;
     margin-top: 10%;
 }
 
-}
-
-#kfum_logo img {
-    display: block;
-}
-
+    #kfum_logo img {
+        display: block;
+        height: 100%;
+        width: 70%;
+    }
