@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css"
+    "\\css",
+    "\\img",
+    "\\img\\andre_billeder",
+    "\\img\\bsl_16"
   ],
-  "SelectedNode": "\\css\\BSL_15.css",
+  "SelectedNode": "\\BSL_15.html",
   "PreviewInSolutionExplorer": false
 }
