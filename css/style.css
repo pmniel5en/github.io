@@ -43,7 +43,6 @@ nav {
     margin-top: 5%;
     height: 5%;
     width: 50%;
-    
 }
 
 }
@@ -52,107 +51,27 @@ nav {
     display: block;
 }
 
+#youtube_logo {
+    display: block;
+    margin-left: 25%;
+    margin-top: 18%;
+    height: 5%;
+    width: 50%;
+}
+
+
+#youtubek_logo img {
+    display: block;
+}
 
 #kfum_logo {
     display: block;
     margin-left: 16%;
     margin-top: 10%;
 }
+
 }
 
-    #kfum_logo img {
-        display: block;
-    }
-
-
-
-
-
-
-@media only screen and (min-width: 50.2em) {
-    .navbar {
-        width: 200px;
-        min-height: 100vh;
-        position: fixed;
-    }
-
-        .navbar #logo {
-            margin-top: 40px;
-            margin-left: 40px;
-        }
+#kfum_logo img {
+    display: block;
 }
-
-@media only screen and (max-height: 800px) {
-    .navbar {
-        position: absolute;
-    }
-}
-
-@media only screen and (max-width: 50em) {
-    .navbar {
-        -webkit-transition: all 0.3s ease-in;
-        transition: all 0.3s ease-in;
-        position: absolute;
-        width: 100%;
-        z-index: 10;
-        height: 66px;
-        overflow: hidden;
-        top: 0;
-    }
-
-        .navbar .nav-toggle {
-            -webkit-transition: 0.2s ease-in-out;
-            transition: 0.2s ease-in-out;
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            background: rgba(253, 169, 158, 0) url(nav-toggle.svg) center no-repeat;
-            background-size: 25px;
-            top: 11px;
-            left: 8px;
-        }
-
-        .navbar #logo {
-            position: absolute;
-            width: 62px;
-            left: 50%;
-            top: 15px;
-            -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-        }
-
-        .navbar.showing {
-            background: #255769;
-            height: auto;
-            min-height: 100vh;
-            position: absolute;
-        }
-
-            .navbar.showing.anim-complete {
-                overflow: visible;
-            }
-
-            .navbar.showing .nav-toggle {
-                display: block;
-                left: 50%;
-                top: 34px;
-                background: #fda99e url(toggle-plus-white.svg) center no-repeat;
-                -webkit-transform: translateX(-50%) rotate(45deg);
-                transform: translateX(-50%) rotate(45deg);
-            }
-
-            .navbar.showing #logo {
-                opacity: 0;
-                pointer-events: none;
-            }
-}
-
-@media only screen and (min-width: 50.2em) {
-    .navbar nav {
-        padding-left: 40px;
-    }
-
-        .navbar nav a:hover {
-            -webkit-transform: translateX(8px);
-            transform: translateX(8px);
-        }
