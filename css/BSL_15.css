@@ -77,10 +77,10 @@ nav {
     }
 
 
+//gallery//
 
-
-//gallery// #wrapper {
-    max-width: 1200px;
+#wrapper {
+    max-width: 85%;
     margin: 0 auto;
 }
 
@@ -93,9 +93,9 @@ img {
 }
 
 .one-third {
-    width: 26%;
+    width: 20%;
     float: right;
-    margin: 2%;
+    margin: 1%;
 }
 
 img:hover {
@@ -105,7 +105,7 @@ img:hover {
 @media screen and (max-width: 768px) {
     .one-third {
         width: 48%;
-        margin: 1%;
+        margin: 0.5%;
     }
 }
 
@@ -113,95 +113,6 @@ img:hover {
 @media screen and (max-width: 480px) {
     .one-third {
         width: 98%;
-        margin: 1%;
+        margin: 0.5%;
     }
 }
-
-
-@media only screen and (min-width: 50.2em) {
-    .navbar {
-        width: 200px;
-        min-height: 100vh;
-        position: fixed;
-    }
-
-        .navbar #logo {
-            margin-top: 40px;
-            margin-left: 40px;
-        }
-}
-
-@media only screen and (max-height: 800px) {
-    .navbar {
-        position: absolute;
-    }
-}
-
-@media only screen and (max-width: 50em) {
-    .navbar {
-        -webkit-transition: all 0.3s ease-in;
-        transition: all 0.3s ease-in;
-        position: absolute;
-        width: 100%;
-        z-index: 10;
-        height: 66px;
-        overflow: hidden;
-        top: 0;
-    }
-
-        .navbar .nav-toggle {
-            -webkit-transition: 0.2s ease-in-out;
-            transition: 0.2s ease-in-out;
-            width: 44px;
-            height: 44px;
-            border-radius: 50%;
-            background: rgba(253, 169, 158, 0) url(nav-toggle.svg) center no-repeat;
-            background-size: 25px;
-            top: 11px;
-            left: 8px;
-        }
-
-        .navbar #logo {
-            position: absolute;
-            width: 62px;
-            left: 50%;
-            top: 15px;
-            -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-        }
-
-        .navbar.showing {
-            background: #255769;
-            height: auto;
-            min-height: 100vh;
-            position: absolute;
-        }
-
-            .navbar.showing.anim-complete {
-                overflow: visible;
-            }
-
-            .navbar.showing .nav-toggle {
-                display: block;
-                left: 50%;
-                top: 34px;
-                background: #fda99e url(toggle-plus-white.svg) center no-repeat;
-                -webkit-transform: translateX(-50%) rotate(45deg);
-                transform: translateX(-50%) rotate(45deg);
-            }
-
-            .navbar.showing #logo {
-                opacity: 0;
-                pointer-events: none;
-            }
-}
-
-@media only screen and (min-width: 50.2em) {
-    .navbar nav {
-        padding-left: 40px;
-    }
-
-        .navbar nav a:hover {
-            -webkit-transform: translateX(8px);
-            transform: translateX(8px);
-        }
