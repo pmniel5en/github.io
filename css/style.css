@@ -89,7 +89,7 @@ nav {
 
 article#cover {
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-image: url(../img/andre_billeder/cover_photo_first_page.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -99,10 +99,44 @@ article#cover {
 h1 {
     margin-left: 9%;
     text-align: center;
-    padding-top: 25%;
+    padding-top: 20%;
     color: #FFFFFF;
     font-family: 'Arimo', sans-serif;
     font-size: 28em;
     font-size: 2.8rem;
     line-height: 1.275em;
+}
+
+
+#youtube {
+    margin-top: 1%;
+    margin-left: 4%;
+    width: 640px;
+    height: 360px;
+}
+
+iframe{ 
+    float: left; 
+    width: 100%; 
+    height: 400px;
+}
+
+#black_box {
+    background-color: #000000;
+    float: left;
+    width: 80%;
+    height: 420px;
+    margin-top: 1%;
+    margin-left: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#text_black_box {
+    color: #FFFFFF;
+    float: right;
+    margin-top: -15%;
+    margin-right: 3%;
+    line-height: 175%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
 }
