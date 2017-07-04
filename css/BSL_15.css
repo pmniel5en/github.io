@@ -18,7 +18,7 @@ nav {
 }
 
     nav ul {
-        text-align: center;
+        margin-left: 23%;
         font-family: 'Oswald', sans-serif;
     }
 
@@ -45,11 +45,9 @@ nav {
     width: 50%;
 }
 
-}
-
-#facebook_logo img {
-    display: block;
-}
+    #facebook_logo img {
+        display: block;
+    }
 
 #youtube_logo {
     display: block;
@@ -58,7 +56,6 @@ nav {
     height: 5%;
     width: 50%;
 }
-
 
 #youtubek_logo img {
     display: block;
@@ -74,6 +71,20 @@ nav {
         display: block;
         height: 100%;
         width: 70%;
+    }
+
+#instagram_logo {
+    display: block;
+    margin-left: 25%;
+    margin-top: 18%;
+    height: 5%;
+    width: 50%;
+}
+
+    #instagram_logo img {
+        display: block;
+        height: 5%;
+        width: 50%;
     }
 
 article#cover {
@@ -95,7 +106,6 @@ h1 {
     font-size: 2.8rem;
     line-height: 1.275em;
 }
-
 
 
 
@@ -130,7 +140,7 @@ img:hover {
 
 @media screen and (max-width: 768px) {
     .one-third {
-        width: 48%;
+        width: 38%;
         margin: 0.5%;
     }
 }
@@ -138,7 +148,7 @@ img:hover {
 
 @media screen and (max-width: 480px) {
     .one-third {
-        width: 98%;
+        width: 78%;
         margin: 0.5%;
     }
 }
