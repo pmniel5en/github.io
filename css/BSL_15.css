@@ -115,7 +115,7 @@ h1 {
 * /* gallery */ * 
 
 #wrapper {
-    max-width: 85%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -128,9 +128,9 @@ img {
 }
 
 .one-third {
-    width: 20%;
-    float: right;
-    margin: 1%;
+    width: 29%;
+    float: left;
+    margin: 2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -140,15 +140,15 @@ img:hover {
 
 @media screen and (max-width: 768px) {
     .one-third {
-        width: 38%;
-        margin: 0.5%;
+        width: 48%;
+        margin: 1%;
     }
 }
 
 
 @media screen and (max-width: 480px) {
     .one-third {
-        width: 78%;
-        margin: 0.5%;
+        width: 98%;
+        margin: 1%;
     }
 }
