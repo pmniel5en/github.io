@@ -260,7 +260,7 @@ iframe{
         font-size: 10px;
     }
 }
-@media screen and (min-width: 630px) {
+@media screen and (max-width: 376px) {
     #youtube {
         margin-top: 10%;
         margin-left: 4%;
@@ -269,103 +269,21 @@ iframe{
     }
 
     #text_black_box {
-        font-size: 6px;
-        margin-top: -16%;
-        margin-right: 2%;
-        width: 50%;
-    }
-
-    #heading {
-        margin-top: -25%;
-        margin-right: 15%;
-        font-size: 23px;
-    }
-
-    h1 {
-        padding-top: 16%;
-        font-size: 18px;
-    }
-
-    article#cover {
-        width: 100%;
-        height: 150px;
-    }
-
-    #black_box {
-        height: 170px;
-    }
-
-    nav ul {
-        margin-left: 17%;
-        font-size: 10px;
-    }
-}
-@media screen and (max-width: 630px) {
-    #youtube {
-        margin-top: 10%;
-        margin-left: 4%;
-        width: 40%;
-        height: 50%;
-    }
-
-    #text_black_box {
-        font-size: 6px;
-        margin-top: -16%;
-        margin-right: 2%;
-        width: 50%;
-    }
-
-    #heading {
-        margin-top: -25%;
-        margin-right: 15%;
-        font-size: 23px;
-    }
-
-    h1 {
-        padding-top: 16%;
-        font-size: 18px;
-    }
-
-    article#cover {
-        width: 100%;
-        height: 150px;
-    }
-
-    #black_box {
-        height: 170px;
-    }
-
-    nav ul {
-        margin-left: 17%;
-        font-size: 10px;
-    }
-}
-
-
-@media screen and (max-width: 550px) {
-    #youtube {
-        margin-top: 10%;
-        margin-left: 4%;
-        width: 40%;
-        height: 50%;
-    }
-
-    #text_black_box {
-        font-size: 6px;
+        font-size: 5px;
         margin-top: -22%;
         margin-right: 2%;
         width: 50%;
     }
 
     #heading {
-        margin-top: -30%;
+        margin-top: -33%;
         margin-right: 10%;
-        font-size: 23px;
+        font-size: 20px;
     }
 
     h1 {
-        padding-top: 20%;
-        font-size: 18px;
+        padding-top: 28%;
+        font-size: 16px;
     }
 
     article#cover {
@@ -374,11 +292,11 @@ iframe{
     }
 
     #black_box {
-        height: 170px;
+        height: 200px;
     }
 
     nav ul {
         margin-left: 17%;
-        font-size: 10px;
+        font-size: 7px;
     }
 }
