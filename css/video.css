@@ -102,7 +102,6 @@ article#cover {
     float: left;
     width: 30%;
     height: 22%;
-    box-shadow: 0 4px 8px 0 #FFF, 0 6px 20px 0 #FFF;
 }
 
 #youtube_bsl15 {
@@ -111,7 +110,6 @@ article#cover {
     float: right;
     width: 30%;
     height: 22%;
-    box-shadow: 0 4px 8px 0 #FFF, 0 6px 20px 0 #FFF;
 }
 
 iframe {
@@ -143,9 +141,21 @@ iframe {
     font-size: 20px;
 }
 
+#onedrive_interview_text {
+    color: #FFFFFF;
+    float: right;
+    padding-top: 1%;
+    margin-right: 14%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
 
-
-
-
+#onedrive_interview {
+    margin-top: 3%;
+    margin-right: -23%;
+    float: right;
+    width: 30%;
+    height: 22%;
+}
 
 
