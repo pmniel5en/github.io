@@ -20,6 +20,7 @@ nav {
     nav ul {
         margin-left: 23%;
         font-family: 'Oswald', sans-serif;
+        font-size: 16px;
     }
 
         nav ul li {
@@ -150,7 +151,7 @@ iframe{
     font-size: 50px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1024px) {
     #youtube {
         margin-top: 5%;
         margin-left: 4%;
@@ -159,22 +160,25 @@ iframe{
     }
     #text_black_box {
         font-size: 12px;
-        margin-top: -30%;
+        margin-top: -22%;
         margin-right: 2%;
         width: 50%;
     }
     #heading{
-        margin-top: -40%;
+        margin-top: -30%;
         margin-right: 12%;
     }
     h1{
-        padding-top: 39%; 
+        padding-top: 37%; 
+    }
+    #black_box {
+        height: 295px;
     }
 
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1024px) {
     #youtube {
         margin-top: 10%;
         margin-left: 4%;
@@ -184,19 +188,19 @@ iframe{
 
     #text_black_box {
         font-size: 12px;
-        margin-top: -25%;
+        margin-top: -22%;
         margin-right: 2%;
         width: 50%;
     }
 
     #heading {
-        margin-top: -33%;
+        margin-top: -30%;
         margin-right: 10%;
         font-size: 40px;
     }
 
     h1 {
-        padding-top: 28%;
+        padding-top: 25%;
         font-size: 30px;
     }
     article#cover {
@@ -207,6 +211,47 @@ iframe{
         height: 300px;
     }
     nav ul {
-        margin-left: 19%;
+        margin-left: 17%;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #youtube {
+        margin-top: 10%;
+        margin-left: 4%;
+        width: 40%;
+        height: 50%;
+    }
+
+    #text_black_box {
+        font-size: 6px;
+        margin-top: -22%;
+        margin-right: 2%;
+        width: 50%;
+    }
+
+    #heading {
+        margin-top: -33%;
+        margin-right: 10%;
+        font-size: 23px;
+    }
+
+    h1 {
+        padding-top: 23%;
+        font-size: 18px;
+    }
+
+    article#cover {
+        width: 100%;
+        height: 150px;
+    }
+
+    #black_box {
+        height: 200px;
+    }
+
+    nav ul {
+        margin-left: 17%;
+        font-size: 10px;
     }
 }
