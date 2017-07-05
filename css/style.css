@@ -260,8 +260,89 @@ iframe{
         font-size: 10px;
     }
 }
+@media screen and (min-width: 630px) {
+    #youtube {
+        margin-top: 10%;
+        margin-left: 4%;
+        width: 40%;
+        height: 50%;
+    }
 
-@media screen and (max-width: 510px) {
+    #text_black_box {
+        font-size: 6px;
+        margin-top: -16%;
+        margin-right: 2%;
+        width: 50%;
+    }
+
+    #heading {
+        margin-top: -25%;
+        margin-right: 15%;
+        font-size: 23px;
+    }
+
+    h1 {
+        padding-top: 16%;
+        font-size: 18px;
+    }
+
+    article#cover {
+        width: 100%;
+        height: 150px;
+    }
+
+    #black_box {
+        height: 170px;
+    }
+
+    nav ul {
+        margin-left: 17%;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 630px) {
+    #youtube {
+        margin-top: 10%;
+        margin-left: 4%;
+        width: 40%;
+        height: 50%;
+    }
+
+    #text_black_box {
+        font-size: 6px;
+        margin-top: -16%;
+        margin-right: 2%;
+        width: 50%;
+    }
+
+    #heading {
+        margin-top: -25%;
+        margin-right: 15%;
+        font-size: 23px;
+    }
+
+    h1 {
+        padding-top: 16%;
+        font-size: 18px;
+    }
+
+    article#cover {
+        width: 100%;
+        height: 150px;
+    }
+
+    #black_box {
+        height: 170px;
+    }
+
+    nav ul {
+        margin-left: 17%;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
     #youtube {
         margin-top: 10%;
         margin-left: 4%;
