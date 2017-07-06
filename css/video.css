@@ -141,7 +141,7 @@ iframe {
     font-size: 20px;
 }
 
-#onedrive_interview_text {
+#youtube_interview_text {
     color: #FFFFFF;
     float: right;
     padding-top: 1%;
@@ -150,12 +150,12 @@ iframe {
     font-size: 20px;
 }
 
-#onedrive_interview {
+#youtube_interview {
     margin-top: 3%;
     margin-right: -23%;
     float: right;
-    width: 570px;
-    height: 400px;
+    width: 30%;
+    height: 22%;
 }
 
 
