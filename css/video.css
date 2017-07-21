@@ -341,6 +341,10 @@ iframe {
 }
 
 @media screen and (max-width: 376px) {
+    iframe{
+        height: 100%;
+        width: 100%;
+    }
     #black_box {
         height: 500px;
     }
