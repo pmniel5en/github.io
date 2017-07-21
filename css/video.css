@@ -101,7 +101,7 @@ article#cover {
     margin-left: 16%;
     float: left;
     width: 30%;
-    height: 22%;
+    height: 40%;
 }
 
 #youtube_bsl15 {
@@ -109,18 +109,18 @@ article#cover {
     margin-right: 8%;
     float: right;
     width: 30%;
-    height: 22%;
+    height: 40%;
 }
 
 iframe {
     width: 100%;
-    height: 400px;
+    height: 100%;
 }
 
 #black_box {
     background-color: #212121;
     width: 100%;
-    height: 1800px;
+    height: 1000px;
 }
 
 #youtube_jorden_rundt_text {
@@ -155,7 +155,272 @@ iframe {
     margin-right: -23%;
     float: right;
     width: 30%;
-    height: 22%;
+    height: 40%;
+}
+
+#youtube_Nørregaard_text {
+    color: #FFFFFF;
+    float: left;
+    padding-top: 1%;
+    margin-left: 25.5%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+#youtube_Nørregaard {
+    margin-top: 1%;
+    margin-left: 16%;
+    float: left;
+    width: 30%;
+    height: 40%;
 }
 
 
+@media screen and (max-width: 1024px) {
+    #youtube_Nørregaard_text {
+        color: #FFFFFF;
+        float: left;
+        padding-top: 1%;
+        margin-left: 23%;
+        font-size: 20px;
+    }
+    #youtube_Nørregaard {
+        margin-top: 1%;
+        margin-left: 22%;
+        float: left;
+        width: 27%;
+        height: 35%;
+    } 
+    #youtube_interview_text {
+        color: #FFFFFF;
+        float: right;
+        padding-top: 1%;
+        margin-right: 5%;
+    }
+
+    #youtube_interview {
+        margin-top: 5%;
+        margin-right: -35%;
+        float: right;
+        width: 27%;
+        height: 35%;
+    }
+    #youtube_bsl15_text {
+        color: #FFFFFF;
+        float: right;
+        padding-top: 1%;
+        margin-right: 9%;
+        font-size: 20px;
+    }
+    #youtube_bsl15 {
+        margin-top: 1%;
+        margin-right: 8%;
+        float: right;
+        width: 27%;
+        height: 35%;
+    }
+    #youtube_jorden_rundt_text {
+        color: #FFFFFF;
+        float: left;
+        padding-top: 1%;
+        margin-left: 23%;
+        font-size: 20px;
+    }
+ 
+    #youtube_jorden_rundt {
+        margin-top: 1%;
+        margin-left: 22%;
+        float: left;
+        width: 27%;
+        height: 35%;
+    }
+
+    h1 {
+        padding-top: 25%;
+        font-size: 30px;
+    }
+
+    article#cover {
+        width: 100%;
+        height: 300px;
+    }
+
+    #black_box {
+        height: 350px;
+    }
+
+    nav ul {
+        margin-left: 17%;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #black_box {
+        height: 370px;
+    }
+    #youtube_Nørregaard_text {
+        color: #FFFFFF;
+        float: left;
+        padding-top: 1%;
+        margin-left: 22%;
+        font-size: 16px;
+    }
+    #youtube_Nørregaard {
+        margin-top: 1%;
+        margin-left: 22%;
+        float: left;
+        width: 30%;
+        height: 22%;
+    }
+    #youtube_jorden_rundt_text {
+        color: #FFFFFF;
+        float: left;
+        padding-top: 1%;
+        margin-left: 24%;
+        font-size: 14px;
+      
+    }
+    #youtube_jorden_rundt {
+        margin-top: 1%;
+        margin-left: 22%;
+        float: left;
+        width: 30%;
+        height: 22%;
+    }
+
+    #youtube_interview_text {
+        color: #FFFFFF;
+        float: right;
+        padding-top: 16%;
+        margin-right: -28%;
+        font-size: 14px;
+        width: 23%;
+    }
+
+    #youtube_interview {
+        margin-top: 22%;
+        margin-right: -30%;
+        float: right;
+        width: 30%;
+        height: 22%;
+    }
+    #youtube_bsl15_text {
+        color: #FFFFFF;
+        float: right;
+        padding-top: 1%;
+        margin-right: 8%;
+        font-size: 16px;
+    }
+    #youtube_bsl15 {
+        margin-top: 1%;
+        margin-right: 8%;
+        float: right;
+        width: 30%;
+        height: 22%;
+    }
+
+    h1 {
+        padding-top: 23%;
+        font-size: 18px;
+    }
+
+    article#cover {
+        width: 100%;
+        height: 150px;
+    }
+
+    #black_box {
+        height: 370px;
+    }
+
+    nav ul {
+        margin-left: 17%;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    #black_box {
+        height: 500px;
+    }
+
+    #youtube_Nørregaard_text {
+        color: #FFFFFF;
+        float: left;
+        padding-top: 3%;
+        margin-left: 15%;
+        font-size: 10px;
+    }
+    #youtube_Nørregaard {
+        margin-top: 3%;
+        margin-right: 10%;
+        float: left;
+        width: 22%;
+        height: 18%;
+    }
+    #youtube_jorden_rundt_text {
+        color: #FFFFFF;
+        float: left;
+        padding-top: 1%;
+        margin-left: 15%;
+        font-size: 10px;
+    }
+    #youtube_jorden_rundt {
+        margin-top: 1%;
+        margin-left: 22%;
+        float: left;
+        width: 22%;
+        height: 18%;
+    }
+    #youtube_interview_text {
+        color: #FFFFFF;
+        float: right;
+        padding-top: 2%;
+        margin-right: 6%;
+        font-size: 8px;
+    }
+
+    #youtube_interview {
+        margin-top: 10%;
+        margin-right: -21%;
+        float: right;
+        width: 22%;
+        height: 18%;
+    }
+    #youtube_bsl15_text {
+        color: #FFFFFF;
+        float: right;
+        padding-top: 1%;
+        margin-right: 4%;
+        font-size: 10px;
+    }
+    #youtube_bsl15 {
+        margin-top: 1%;
+        margin-right: 8%;
+        float: right;
+        width: 22%;
+        height: 18%;
+    }
+
+    h1 {
+        padding-top: 28%;
+        font-size: 16px;
+    }
+
+    article#cover {
+        width: 100%;
+        height: 150px;
+        background-position: center;
+        margin-left: 6%;
+    }
+
+    #black_box {
+        height: 200px;
+    }
+
+    nav ul {
+        margin-left: 17%;
+        font-size: 7px;
+    }
+}
