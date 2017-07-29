@@ -345,66 +345,64 @@ iframe {
         height: 100%;
         width: 100%;
     }
-    #black_box {
-        height: 500px;
-    }
-
+  
     #youtube_Nørregaard_text {
         color: #FFFFFF;
         float: left;
         padding-top: 3%;
-        margin-left: 15%;
+        margin-left: 40%;
         font-size: 10px;
     }
     #youtube_Nørregaard {
         margin-top: 3%;
-        margin-right: 10%;
+        margin-left: 27%;
         float: left;
-        width: 22%;
-        height: 18%;
+        width: 60%;
+        height: 20%;
     }
     #youtube_jorden_rundt_text {
         color: #FFFFFF;
         float: left;
         padding-top: 1%;
-        margin-left: 15%;
+        margin-left: 39%;
         font-size: 10px;
     }
     #youtube_jorden_rundt {
-        margin-top: 1%;
-        margin-left: 22%;
+        margin-top: -55%;
+        margin-left: 27%;
         float: left;
-        width: 22%;
-        height: 18%;
+        width: 60%;
+        height: 20%;
     }
     #youtube_interview_text {
         color: #FFFFFF;
-        float: right;
-        padding-top: 2%;
-        margin-right: 6%;
-        font-size: 8px;
+        float: left;
+        padding-top: 3%;
+        margin-left: 32%;
+        font-size: 10px;
+        width: 60%;
     }
 
     #youtube_interview {
-        margin-top: 10%;
-        margin-right: -21%;
-        float: right;
-        width: 22%;
-        height: 18%;
+        margin-top: 3%;
+        margin-left: 27%;
+        float: left;
+        width: 60%;
+        height: 20%;
     }
     #youtube_bsl15_text {
         color: #FFFFFF;
-        float: right;
-        padding-top: 1%;
-        margin-right: 4%;
+        float: left;
+        margin-left: 40%;
         font-size: 10px;
+        margin-top: 52%;
     }
     #youtube_bsl15 {
-        margin-top: 1%;
-        margin-right: 8%;
-        float: right;
-        width: 22%;
-        height: 18%;
+        margin-top: 2%;
+        margin-left: 27%;
+        float: left;
+        width: 60%;
+        height: 20%;
     }
 
     h1 {
@@ -413,14 +411,15 @@ iframe {
     }
 
     article#cover {
-        width: 100%;
+        width: 94%;
         height: 150px;
         background-position: center;
         margin-left: 6%;
     }
 
     #black_box {
-        height: 200px;
+        height: 800px;
+        width: 100%;
     }
 
     nav ul {
