@@ -262,22 +262,22 @@ iframe{
 }
 @media screen and (max-width: 376px) {
     #youtube {
-        margin-top: 10%;
-        margin-left: 4%;
-        width: 40%;
-        height: 50%;
+        margin-top: 40%;
+        margin-left: 10%;
+        width: 80%;
+        height: 55%;
     }
 
     #text_black_box {
         font-size: 5px;
-        margin-top: -22%;
+        margin-top: -75%;
         margin-right: 2%;
-        width: 50%;
+        width: 90%;
     }
 
     #heading {
-        margin-top: -33%;
-        margin-right: 10%;
+        margin-top: -87%;
+        margin-right: 27%;
         font-size: 20px;
     }
 
@@ -292,7 +292,7 @@ iframe{
     }
 
     #black_box {
-        height: 200px;
+        height: 250px;
     }
 
     nav ul {
